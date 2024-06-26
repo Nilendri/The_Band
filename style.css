@@ -1,0 +1,291 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  list-style: none;
+}
+.navbar .nav {
+  display: flex;
+  margin-top: 5px;
+}
+.navbar .nav li a {
+  text-decoration: none;
+  color: white;
+  margin-left: 10px;
+  padding: 15px;
+}
+.navbar .nav li a:hover {
+  background-color: gray;
+}
+.checkbtn{
+    font-size: 25px;
+    color: #fff;
+    float: right;
+    line-height: 46px;
+    margin-right: 36px ;
+    display: none;
+}
+#check{
+    display: none;
+}
+/* For search button */
+.navbar .search {
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+.navbar .search:hover {
+  background-color: red;
+}
+/* style for dropdown */
+.dropdown {
+  position: relative;
+}
+.drop {
+  display: none;
+  position: absolute;
+  min-width: 120px;
+  background-color: black;
+  z-index: 1;
+}
+.drop a {
+  color: white;
+  padding: 0px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.dropdown:hover .drop {
+  display: block;
+}
+
+
+/* home */
+.home {
+  height: 750px;
+}
+.home img{
+  width: 1519px;
+}
+.home .head {
+  width: 350px;
+  position: relative;
+  bottom: 150px;
+  left: 600px;
+}
+.home span {
+  color: white;
+  position: relative;
+  left: 100px;
+  font-size: 30px;
+}
+.home p {
+  color: white;
+  font-weight: bold;
+}
+
+/* bend */
+#bend {
+  height: 700px;
+  padding-top: 50px;
+}
+#bend .text {
+  margin-top: 100px;
+  width: 900px;
+  text-align: center;
+  position: relative;
+  left: 319px;
+}
+#bend h1 {
+  letter-spacing: 4px;
+  font-weight: normal;
+}
+#bend h4 {
+  opacity: 0.6;
+}
+#bend .text p {
+  text-align: justify !important;
+}
+#bend .pic {
+  width: 900px;
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: 320px;
+}
+#bend .pic p {
+  position: relative;
+  left: 80px;
+}
+#bend img {
+  height: 180px;
+  width: 200px;
+  border-radius: 4px;
+}
+
+
+
+/* Tour */
+#tour {
+  background-color: black;
+  height: 800px;
+  width: 1519px;
+}
+#tour .tour1{
+    width: 1000px;
+    position: relative;
+    left: 250px;
+    top: 100px;
+}
+#tour h2 {
+  color: white;
+  text-align: center;
+  letter-spacing: 4px;
+  font-weight: normal;
+}
+#tour p {
+  color: white;
+  text-align: center;
+  opacity: 0.6;
+}
+#tour ul {
+  background-color: white;
+  list-style: none;
+  width: 900px;
+  margin-top: 30px;
+  padding: 10px 0px;
+  position: relative;
+  left: 50px;
+}
+#tour ul li{
+    padding: 0px 5px;
+}
+#tour .text{
+    background-color: red;
+    color: white;
+    position: relative;
+    left: 10px;
+}
+#tour .text1{
+    float: right !important;
+}
+#tour .para{
+    width: 1000px;
+    margin-top: 30px;
+    position: relative;
+    left: 260px;
+    top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#tour .para .pic{
+    width: 250px;
+}
+#tour .para img{
+    width: 250px;
+}
+#tour .para img:hover{
+    opacity: 0.6;
+}
+#tour .para .text{
+    background-color: white;
+    height: 200px;
+    position: relative;
+    left: -1px;
+    bottom: 4px;
+    padding: 10px 10px;
+}
+#tour .para .text span{
+    color: black;
+
+}
+#tour .para .text h4{
+    color: black;
+}
+#tour .para .text p{
+    color: black;
+    text-align: justify;
+}
+#tour button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+#tour button:hover{
+    color: black;
+    background-color: rgb(88, 85, 85);
+}
+
+/* Contact */
+#contact{
+    /* height: 400px; */
+    padding-top: 50px;
+    width: 1519px;
+}
+#contact h1{
+    text-align: center;
+    letter-spacing: 4px;
+    font-weight: normal;
+
+}
+#contact h4{
+    text-align: center;
+    opacity: 0.6;
+}
+#contact .info{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px;
+    height: 120px;
+}
+#contact .info1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    font-size: 18px;
+}
+#contact .info2{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 120px;
+}
+#contact .first{
+    display: flex;
+}
+#contact .first input{
+    margin: 0px 5px;
+    height: 30px;
+
+}
+#contact .sec{
+    margin:5px 0px;
+    width: 349px;
+    height: 30px;
+}
+#contact button{
+    width: 80px;
+    height: 30px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    left: 276px;
+}
+
+.pics img{
+    width: 1519px;
+}
